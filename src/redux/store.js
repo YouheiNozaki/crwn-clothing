@@ -4,7 +4,7 @@ import logger from "redux-logger";
 
 import rootReducer from "./root-reducer";
 
-export const middlewares = [logger];
+const middlewares = [logger];
 
 if (process.env.NODE_ENV === "development") {
   middlewares.push(logger);
