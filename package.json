@@ -23,7 +23,6 @@
     "stripe": "6.28.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
     "concurrently": "^4.0.1"
   }
 }
